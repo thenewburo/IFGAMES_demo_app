@@ -93,17 +93,17 @@ class LiveChatViewController: UIViewController, UITableViewDataSource, UITextFie
         cell.hideVirtualCharacterTypingReplyDots()
         cell.messageTimestamp.isHidden = true
         
-        if messagesArray[indexPath.row].messageSender != Auth.auth().currentUser?.email {
-            cell.automatedMessageSpacerView.isHidden = true
-            cell.userMessageSpacerView.isHidden = false
-            cell.messageBubble.backgroundColor = UIColor(named: Constants.userMessageBubbleColour)
-            cell.messageText.textColor = UIColor(named: "UserMessageTextColor")
-        } else {
-            cell.automatedMessageSpacerView.isHidden = false
-            cell.userMessageSpacerView.isHidden = true
-            cell.messageBubble.backgroundColor = UIColor(named: Constants.automatedMessageBubbleColour)
-            cell.messageText.textColor = UIColor(named: "AutomatedMessageTextColor")
-        }
+//        if messagesArray[indexPath.row].messageSender != Auth.auth().currentUser?.email {
+//            cell.automatedMessageSpacerView.isHidden = true
+//            cell.userMessageSpacerView.isHidden = false
+//            cell.messageBubble.backgroundColor = UIColor(named: Constants.userMessageBubbleColour)
+//            cell.messageText.textColor = UIColor(named: "UserMessageTextColor")
+//        } else {
+//            cell.automatedMessageSpacerView.isHidden = false
+//            cell.userMessageSpacerView.isHidden = true
+//            cell.messageBubble.backgroundColor = UIColor(named: Constants.automatedMessageBubbleColour)
+//            cell.messageText.textColor = UIColor(named: "AutomatedMessageTextColor")
+//        }
 
         cell.automatedMessageProfilePicture.image = UIImage(named: "AppIcon")
         
@@ -116,16 +116,16 @@ class LiveChatViewController: UIViewController, UITableViewDataSource, UITextFie
     }
     
     @IBAction func sendButtonPressed(_ sender: Any) {
-        if let messageSender = Auth.auth().currentUser?.email, let messageBody = replyTextField.text {
-            
-            db.collection("chatTable").addDocument(data: ["messageSender": messageSender, "messageBody": messageBody, "messageTimestamp": Date().timeIntervalSince1970]) { (error) in
-                if let e = error {
-                    print("Could not save to Firestore \(e)")
-                } else {
-                    print("Saved data to Firestore")
-                }
-            }
-        }
+//        if let messageSender = Auth.auth().currentUser?.email, let messageBody = replyTextField.text {
+//
+//            db.collection("chatTable").addDocument(data: ["messageSender": messageSender, "messageBody": messageBody, "messageTimestamp": Date().timeIntervalSince1970]) { (error) in
+//                if let e = error {
+//                    print("Could not save to Firestore \(e)")
+//                } else {
+//                    print("Saved data to Firestore")
+//                }
+//            }
+//        }
         
         replyTextField.text = ""
         replyTextField.resignFirstResponder()

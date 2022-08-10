@@ -10,7 +10,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var backButton: UIButton!
     
-    let db = Firestore.firestore()
+  let db = Firestore.firestore()
     
     
     override func viewDidLoad() {
@@ -32,7 +32,7 @@ class LoginViewController: UIViewController {
                     print("Error loging in \(e)")
                     self.errorTextView.text = e.localizedDescription
                 } else {
-                    
+
                     if let currentUserEmail = Auth.auth().currentUser?.email {
                         self.db.collection(Constants.FireStoreData.firebaseLoginCollectionName).addDocument(data: [Constants.FireStoreData.userEmail: currentUserEmail]) { (error) in
                             if let e = error {
@@ -42,7 +42,7 @@ class LoginViewController: UIViewController {
                             }
                         }
                     }
-                    
+
                     self.performSegue(withIdentifier: Constants.loginToVideoIntroSegue, sender: self)
                 }
             }

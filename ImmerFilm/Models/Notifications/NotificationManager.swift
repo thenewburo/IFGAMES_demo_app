@@ -37,11 +37,7 @@ class NotificationManager {
         }
         
 
-        if (String(describing: currentViewController.self).contains("VirtualCharacterConversationViewController") && contentToLaunch.contains("message")) {
-            let currentVirtualCharacterConversationViewController = currentViewController as! VirtualCharacterConversationViewController
-            currentVirtualCharacterConversationViewController.viewDidLoad()
-            
-        } else if (String(describing: currentViewController.self).contains("VoicemailViewController") && contentToLaunch.contains("voicemail")) {
+        if (String(describing: currentViewController.self).contains("VoicemailViewController") && contentToLaunch.contains("voicemail")) {
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
             let homeScreenViewControllerReference = appDelegate.homeScreenViewControllerReference
             if let homeScreenViewController = homeScreenViewControllerReference {
@@ -86,18 +82,7 @@ class NotificationManager {
             UIApplication.topMostViewController?.present(mediaLibraryViewController, animated: true, completion: nil)
             mediaLibraryViewController.displaySpecificVideoItem(selectedMediaItemName: itemToLaunch)
             
-        } else if contentToLaunch.contains("message") {
-            if let homeScreenViewController = homeScreenViewControllerReference {
-                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                    let messagesNavigationController = storyboard.instantiateViewController(withIdentifier: "messagesNavigationController") as! UINavigationController
-                    messagesNavigationController.modalPresentationStyle = UIModalPresentationStyle.fullScreen
-                    messagesNavigationController.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-                    homeScreenViewController.present(messagesNavigationController, animated: true, completion: { () in
-                        let messagesNavigationControllerChildren = messagesNavigationController.children
-                        let virtualCharacterConversationListViewController = messagesNavigationControllerChildren[0] as! VirtualCharacterConversationListViewController
-                        virtualCharacterConversationListViewController.openSpecifiedConversation(characterName: itemToLaunch) } ) //} )
-            }
-        }  else if contentToLaunch.contains("webbrowser") {
+        } else if contentToLaunch.contains("webbrowser") {
             if let homeScreenViewController = homeScreenViewControllerReference {
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 let webBrowserViewController = storyboard.instantiateViewController(withIdentifier: "webBrowserViewControllerID") as! WebBrowserViewController
@@ -141,20 +126,7 @@ class NotificationManager {
             UIApplication.topMostViewController?.present(mediaLibraryViewController, animated: true, completion: nil)
             mediaLibraryViewController.displaySpecificVideoItem(selectedMediaItemName: itemToLaunch)
             
-        } else if contentToLaunch.contains("message") {
-            if let homeScreenViewController = homeScreenViewControllerReference {
-                homeScreenViewController.dismiss(animated: true, completion: { () in
-                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                    let messagesNavigationController = storyboard.instantiateViewController(withIdentifier: "messagesNavigationController") as! UINavigationController
-                    messagesNavigationController.modalPresentationStyle = UIModalPresentationStyle.fullScreen
-                    messagesNavigationController.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-                    homeScreenViewController.present(messagesNavigationController, animated: true, completion: { () in
-                        let messagesNavigationControllerChildren = messagesNavigationController.children
-                        let virtualCharacterConversationListViewController = messagesNavigationControllerChildren[0] as! VirtualCharacterConversationListViewController
-                        virtualCharacterConversationListViewController.openSpecifiedConversation(characterName: itemToLaunch) } ) } )
-            }
-        }
-        else if contentToLaunch.contains("webbrowser") {
+        } else if contentToLaunch.contains("webbrowser") {
             if let homeScreenViewController = homeScreenViewControllerReference {
                 homeScreenViewController.dismiss(animated: true, completion: { () in
                     let storyboard = UIStoryboard(name: "Main", bundle: nil)

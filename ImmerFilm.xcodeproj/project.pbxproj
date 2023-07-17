@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D621B5C29139C9A000196DF /* vampire9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B4F29139C9A000196DF /* vampire9.mp4 */; };
+		4D621B5D29139C9A000196DF /* vampire1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5029139C9A000196DF /* vampire1.mp4 */; };
+		4D621B5E29139C9A000196DF /* vampire8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5129139C9A000196DF /* vampire8.mp4 */; };
+		4D621B5F29139C9A000196DF /* MorbiusTrailer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5229139C9A000196DF /* MorbiusTrailer.mp4 */; };
+		4D621B6029139C9A000196DF /* Reality1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5329139C9A000196DF /* Reality1.mov */; };
+		4D621B6129139C9A000196DF /* vampire3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5429139C9A000196DF /* vampire3.mp4 */; };
+		4D621B6229139C9A000196DF /* GlitchNoFade.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5529139C9A000196DF /* GlitchNoFade.mp4 */; };
+		4D621B6329139C9A000196DF /* IF GAMES Vampire Girl  01a NFL Pepsi CROP.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5629139C9A000196DF /* IF GAMES Vampire Girl  01a NFL Pepsi CROP.mov */; };
+		4D621B6429139C9A000196DF /* Reality+CLIPBattle Royale01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5729139C9A000196DF /* Reality+CLIPBattle Royale01.mp4 */; };
+		4D621B6529139C9A000196DF /* vampire4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5829139C9A000196DF /* vampire4.mp4 */; };
+		4D621B6629139C9A000196DF /* vampire6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5929139C9A000196DF /* vampire6.mp4 */; };
+		4D621B6729139C9A000196DF /* Flame.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5A29139C9A000196DF /* Flame.mp4 */; };
+		4D621B6829139C9A000196DF /* _GlitchNoFade.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B5B29139C9A000196DF /* _GlitchNoFade.mp4 */; };
+		4D621B6B2913A3E1000196DF /* DNDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D621B6A2913A3E1000196DF /* DNDViewController.swift */; };
+		4D621B6D2913B969000196DF /* old_MorbiusV2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B6C2913B969000196DF /* old_MorbiusV2.json */; };
+		4D621B6F291490E2000196DF /* joeM.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D621B6E291490E2000196DF /* joeM.json */; };
+		4DD0EE3B28A4784C00667E20 /* MorbiusV2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DD0EE3A28A4784C00667E20 /* MorbiusV2.json */; };
+		991801D528A3693E005D7B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991801D328A3693E005D7B0E /* Main.storyboard */; };
+		992613FB28A23E5A001981AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992613FA28A23E5A001981AE /* AppDelegate.swift */; };
+		992613FD28A23E5A001981AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992613FC28A23E5A001981AE /* SceneDelegate.swift */; };
+		9926140428A23E5A001981AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9926140328A23E5A001981AE /* Assets.xcassets */; };
+		9926146428A23F65001981AE /* AlphaFrameFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926140F28A23F65001981AE /* AlphaFrameFilter.swift */; };
+		9926147B28A23F65001981AE /* VoicemailListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926143328A23F65001981AE /* VoicemailListItem.swift */; };
+		9926147C28A23F65001981AE /* VoicemailItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9926143428A23F65001981AE /* VoicemailItem.xib */; };
+		9926147D28A23F65001981AE /* VoicemailListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9926143528A23F65001981AE /* VoicemailListItem.xib */; };
+		9926147E28A23F65001981AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9926143628A23F65001981AE /* LaunchScreen.storyboard */; };
+		9926148028A23F65001981AE /* MediaLibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926143B28A23F65001981AE /* MediaLibraryCell.swift */; };
+		9926148128A23F65001981AE /* MessageItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9926143D28A23F65001981AE /* MessageItem.xib */; };
+		9926148228A23F65001981AE /* VirtualCharacterReplyingAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9926143E28A23F65001981AE /* VirtualCharacterReplyingAnimation.xib */; };
+		9926148328A23F65001981AE /* ContactListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926143F28A23F65001981AE /* ContactListItem.swift */; };
+		9926148428A23F65001981AE /* VirtualCharacterReplyingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144028A23F65001981AE /* VirtualCharacterReplyingAnimation.swift */; };
+		9926148528A23F65001981AE /* ConversationListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144128A23F65001981AE /* ConversationListItem.swift */; };
+		9926148628A23F65001981AE /* MessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144228A23F65001981AE /* MessageItem.swift */; };
+		9926148728A23F65001981AE /* VoicemailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144528A23F65001981AE /* VoicemailManager.swift */; };
+		9926148928A23F65001981AE /* SetupRealmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144828A23F65001981AE /* SetupRealmDB.swift */; };
+		9926148A28A23F65001981AE /* MediaLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144A28A23F65001981AE /* MediaLibraryManager.swift */; };
+		9926148B28A23F65001981AE /* VirtualCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144C28A23F65001981AE /* VirtualCharacter.swift */; };
+		9926148C28A23F65001981AE /* VirtualCharacterInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144D28A23F65001981AE /* VirtualCharacterInteraction.swift */; };
+		9926148D28A23F65001981AE /* MediaLibraryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144E28A23F65001981AE /* MediaLibraryItem.swift */; };
+		9926148E28A23F65001981AE /* VoicemailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926144F28A23F65001981AE /* VoicemailItem.swift */; };
+		9926148F28A23F65001981AE /* VirtualCharacterInteractionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926145028A23F65001981AE /* VirtualCharacterInteractionHistory.swift */; };
+		9926149028A23F65001981AE /* ContentUnlockingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926145128A23F65001981AE /* ContentUnlockingItem.swift */; };
+		9926149128A23F65001981AE /* JSONDataFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926145328A23F65001981AE /* JSONDataFormat.swift */; };
+		9926149228A23F65001981AE /* ImportJSONToRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926145428A23F65001981AE /* ImportJSONToRealm.swift */; };
+		9926149428A23F65001981AE /* LiveChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926145828A23F65001981AE /* LiveChatMessage.swift */; };
+		9926149528A23F65001981AE /* VirtualCharacterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926145928A23F65001981AE /* VirtualCharacterManager.swift */; };
+		9926149628A23F65001981AE /* Unlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9926145B28A23F65001981AE /* Unlock.mp3 */; };
+		9926149728A23F65001981AE /* MartineVoicemail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9926145C28A23F65001981AE /* MartineVoicemail.mp3 */; };
+		9926149828A23F65001981AE /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926145D28A23F65001981AE /* SoundPlayer.swift */; };
+		9926149928A23F65001981AE /* Notification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9926145E28A23F65001981AE /* Notification.mp3 */; };
+		9926149A28A23F65001981AE /* Morbius1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9926145F28A23F65001981AE /* Morbius1.mp3 */; };
+		9926149B28A23F65001981AE /* GlitchStatic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9926146028A23F65001981AE /* GlitchStatic.mp3 */; };
+		9926149C28A23F65001981AE /* FurElise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9926146128A23F65001981AE /* FurElise.mp3 */; };
+		9926149D28A23F65001981AE /* AlwaysPopupSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926146328A23F65001981AE /* AlwaysPopupSegue.swift */; };
+		9926149F28A24217001981AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926149E28A24217001981AE /* Constants.swift */; };
+		992614A228A2D53E001981AE /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 992614A128A2D53E001981AE /* Realm */; };
+		992614A428A2D53E001981AE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 992614A328A2D53E001981AE /* RealmSwift */; };
+		997FDC3528A35145000C7769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997FDC3328A35145000C7769 /* Main.storyboard */; };
+		99B59DE628A353E6009E65D7 /* VoicemailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DC728A353E6009E65D7 /* VoicemailViewController.swift */; };
+		99B59DE728A353E6009E65D7 /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DC928A353E6009E65D7 /* WebBrowserViewController.swift */; };
+		99B59DE828A353E6009E65D7 /* MusicMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DCB28A353E6009E65D7 /* MusicMasterViewController.swift */; };
+		99B59DE928A353E6009E65D7 /* RealityClashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DCD28A353E6009E65D7 /* RealityClashViewController.swift */; };
+		99B59DEA28A353E6009E65D7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DCF28A353E6009E65D7 /* WelcomeViewController.swift */; };
+		99B59DEB28A353E6009E65D7 /* VideoIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DD028A353E6009E65D7 /* VideoIntroViewController.swift */; };
+		99B59DEC28A353E6009E65D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DD128A353E6009E65D7 /* LoginViewController.swift */; };
+		99B59DED28A353E6009E65D7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DD228A353E6009E65D7 /* RegisterViewController.swift */; };
+		99B59DEE28A353E6009E65D7 /* CalendarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DD428A353E6009E65D7 /* CalendarDetailViewController.swift */; };
+		99B59DEF28A353E6009E65D7 /* CalendarMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DD528A353E6009E65D7 /* CalendarMasterViewController.swift */; };
+		99B59DF028A353E6009E65D7 /* WisulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DD728A353E6009E65D7 /* WisulViewController.swift */; };
+		99B59DF128A353E6009E65D7 /* ImageItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DD928A353E6009E65D7 /* ImageItemViewController.swift */; };
+		99B59DF228A353E6009E65D7 /* MediaLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DDA28A353E6009E65D7 /* MediaLibraryViewController.swift */; };
+		99B59DF328A353E6009E65D7 /* PinCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DDB28A353E6009E65D7 /* PinCodeViewController.swift */; };
+		99B59DF428A353E6009E65D7 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DDC28A353E6009E65D7 /* VideoViewController.swift */; };
+		99B59DF528A353E6009E65D7 /* NotificationPopoverPresentationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DDE28A353E6009E65D7 /* NotificationPopoverPresentationControllerDelegate.swift */; };
+		99B59DF628A353E6009E65D7 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DDF28A353E6009E65D7 /* NotificationViewController.swift */; };
+		99B59DF728A353E6009E65D7 /* VirtualCharacterConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DE128A353E6009E65D7 /* VirtualCharacterConversationListViewController.swift */; };
+		99B59DF828A353E6009E65D7 /* LiveChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DE228A353E6009E65D7 /* LiveChatViewController.swift */; };
+		99B59DF928A353E6009E65D7 /* VirtualCharacterContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DE328A353E6009E65D7 /* VirtualCharacterContactListViewController.swift */; };
+		99B59DFA28A353E6009E65D7 /* VirtualCharacterConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DE428A353E6009E65D7 /* VirtualCharacterConversationViewController.swift */; };
+		99B59DFB28A353E6009E65D7 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B59DE528A353E6009E65D7 /* HomeScreenViewController.swift */; };
+		99DDE87928A468C30093BDD4 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DDE87828A468C30093BDD4 /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D621B4F29139C9A000196DF /* vampire9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = vampire9.mp4; path = ImmerFilm/vampire9.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B5029139C9A000196DF /* vampire1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = vampire1.mp4; path = ImmerFilm/vampire1.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B5129139C9A000196DF /* vampire8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = vampire8.mp4; path = ImmerFilm/vampire8.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B5229139C9A000196DF /* MorbiusTrailer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = MorbiusTrailer.mp4; path = ImmerFilm/MorbiusTrailer.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B5329139C9A000196DF /* Reality1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Reality1.mov; path = ImmerFilm/Reality1.mov; sourceTree = SOURCE_ROOT; };
+		4D621B5429139C9A000196DF /* vampire3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = vampire3.mp4; path = ImmerFilm/vampire3.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B5529139C9A000196DF /* GlitchNoFade.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = GlitchNoFade.mp4; path = ImmerFilm/GlitchNoFade.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B5629139C9A000196DF /* IF GAMES Vampire Girl  01a NFL Pepsi CROP.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "IF GAMES Vampire Girl  01a NFL Pepsi CROP.mov"; path = "ImmerFilm/IF GAMES Vampire Girl  01a NFL Pepsi CROP.mov"; sourceTree = SOURCE_ROOT; };
+		4D621B5729139C9A000196DF /* Reality+CLIPBattle Royale01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Reality+CLIPBattle Royale01.mp4"; path = "ImmerFilm/Reality+CLIPBattle Royale01.mp4"; sourceTree = SOURCE_ROOT; };
+		4D621B5829139C9A000196DF /* vampire4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = vampire4.mp4; path = ImmerFilm/vampire4.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B5929139C9A000196DF /* vampire6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = vampire6.mp4; path = ImmerFilm/vampire6.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B5A29139C9A000196DF /* Flame.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Flame.mp4; path = ImmerFilm/Flame.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B5B29139C9A000196DF /* _GlitchNoFade.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = _GlitchNoFade.mp4; path = ImmerFilm/_GlitchNoFade.mp4; sourceTree = SOURCE_ROOT; };
+		4D621B6A2913A3E1000196DF /* DNDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNDViewController.swift; sourceTree = "<group>"; };
+		4D621B6C2913B969000196DF /* old_MorbiusV2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = old_MorbiusV2.json; sourceTree = "<group>"; };
+		4D621B6E291490E2000196DF /* joeM.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = joeM.json; sourceTree = "<group>"; };
+		4DD0EE3A28A4784C00667E20 /* MorbiusV2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MorbiusV2.json; sourceTree = "<group>"; };
+		991801D428A3693E005D7B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		992613F728A23E5A001981AE /* ImmerFilm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmerFilm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		992613FA28A23E5A001981AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		992613FC28A23E5A001981AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9926140328A23E5A001981AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9926140828A23E5A001981AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9926140F28A23F65001981AE /* AlphaFrameFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphaFrameFilter.swift; sourceTree = "<group>"; };
+		9926143328A23F65001981AE /* VoicemailListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoicemailListItem.swift; sourceTree = "<group>"; };
+		9926143428A23F65001981AE /* VoicemailItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoicemailItem.xib; sourceTree = "<group>"; };
+		9926143528A23F65001981AE /* VoicemailListItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoicemailListItem.xib; sourceTree = "<group>"; };
+		9926143728A23F65001981AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9926143B28A23F65001981AE /* MediaLibraryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaLibraryCell.swift; sourceTree = "<group>"; };
+		9926143D28A23F65001981AE /* MessageItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageItem.xib; sourceTree = "<group>"; };
+		9926143E28A23F65001981AE /* VirtualCharacterReplyingAnimation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VirtualCharacterReplyingAnimation.xib; sourceTree = "<group>"; };
+		9926143F28A23F65001981AE /* ContactListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListItem.swift; sourceTree = "<group>"; };
+		9926144028A23F65001981AE /* VirtualCharacterReplyingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCharacterReplyingAnimation.swift; sourceTree = "<group>"; };
+		9926144128A23F65001981AE /* ConversationListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListItem.swift; sourceTree = "<group>"; };
+		9926144228A23F65001981AE /* MessageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageItem.swift; sourceTree = "<group>"; };
+		9926144528A23F65001981AE /* VoicemailManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoicemailManager.swift; sourceTree = "<group>"; };
+		9926144828A23F65001981AE /* SetupRealmDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupRealmDB.swift; sourceTree = "<group>"; };
+		9926144A28A23F65001981AE /* MediaLibraryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaLibraryManager.swift; sourceTree = "<group>"; };
+		9926144C28A23F65001981AE /* VirtualCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCharacter.swift; sourceTree = "<group>"; };
+		9926144D28A23F65001981AE /* VirtualCharacterInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCharacterInteraction.swift; sourceTree = "<group>"; };
+		9926144E28A23F65001981AE /* MediaLibraryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaLibraryItem.swift; sourceTree = "<group>"; };
+		9926144F28A23F65001981AE /* VoicemailItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoicemailItem.swift; sourceTree = "<group>"; };
+		9926145028A23F65001981AE /* VirtualCharacterInteractionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCharacterInteractionHistory.swift; sourceTree = "<group>"; };
+		9926145128A23F65001981AE /* ContentUnlockingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentUnlockingItem.swift; sourceTree = "<group>"; };
+		9926145328A23F65001981AE /* JSONDataFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDataFormat.swift; sourceTree = "<group>"; };
+		9926145428A23F65001981AE /* ImportJSONToRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportJSONToRealm.swift; sourceTree = "<group>"; };
+		9926145828A23F65001981AE /* LiveChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveChatMessage.swift; sourceTree = "<group>"; };
+		9926145928A23F65001981AE /* VirtualCharacterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCharacterManager.swift; sourceTree = "<group>"; };
+		9926145B28A23F65001981AE /* Unlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Unlock.mp3; sourceTree = "<group>"; };
+		9926145C28A23F65001981AE /* MartineVoicemail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MartineVoicemail.mp3; sourceTree = "<group>"; };
+		9926145D28A23F65001981AE /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		9926145E28A23F65001981AE /* Notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Notification.mp3; sourceTree = "<group>"; };
+		9926145F28A23F65001981AE /* Morbius1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Morbius1.mp3; sourceTree = "<group>"; };
+		9926146028A23F65001981AE /* GlitchStatic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GlitchStatic.mp3; sourceTree = "<group>"; };
+		9926146128A23F65001981AE /* FurElise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FurElise.mp3; sourceTree = "<group>"; };
+		9926146328A23F65001981AE /* AlwaysPopupSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlwaysPopupSegue.swift; sourceTree = "<group>"; };
+		9926149E28A24217001981AE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		997FDC3428A35145000C7769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ImmerFilm/Views/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		99B59DC728A353E6009E65D7 /* VoicemailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoicemailViewController.swift; sourceTree = "<group>"; };
+		99B59DC928A353E6009E65D7 /* WebBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBrowserViewController.swift; sourceTree = "<group>"; };
+		99B59DCB28A353E6009E65D7 /* MusicMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicMasterViewController.swift; sourceTree = "<group>"; };
+		99B59DCD28A353E6009E65D7 /* RealityClashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealityClashViewController.swift; sourceTree = "<group>"; };
+		99B59DCF28A353E6009E65D7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		99B59DD028A353E6009E65D7 /* VideoIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoIntroViewController.swift; sourceTree = "<group>"; };
+		99B59DD128A353E6009E65D7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		99B59DD228A353E6009E65D7 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		99B59DD428A353E6009E65D7 /* CalendarDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDetailViewController.swift; sourceTree = "<group>"; };
+		99B59DD528A353E6009E65D7 /* CalendarMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarMasterViewController.swift; sourceTree = "<group>"; };
+		99B59DD728A353E6009E65D7 /* WisulViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WisulViewController.swift; sourceTree = "<group>"; };
+		99B59DD928A353E6009E65D7 /* ImageItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageItemViewController.swift; sourceTree = "<group>"; };
+		99B59DDA28A353E6009E65D7 /* MediaLibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaLibraryViewController.swift; sourceTree = "<group>"; };
+		99B59DDB28A353E6009E65D7 /* PinCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinCodeViewController.swift; sourceTree = "<group>"; };
+		99B59DDC28A353E6009E65D7 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		99B59DDE28A353E6009E65D7 /* NotificationPopoverPresentationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPopoverPresentationControllerDelegate.swift; sourceTree = "<group>"; };
+		99B59DDF28A353E6009E65D7 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		99B59DE128A353E6009E65D7 /* VirtualCharacterConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCharacterConversationListViewController.swift; sourceTree = "<group>"; };
+		99B59DE228A353E6009E65D7 /* LiveChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveChatViewController.swift; sourceTree = "<group>"; };
+		99B59DE328A353E6009E65D7 /* VirtualCharacterContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCharacterContactListViewController.swift; sourceTree = "<group>"; };
+		99B59DE428A353E6009E65D7 /* VirtualCharacterConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCharacterConversationViewController.swift; sourceTree = "<group>"; };
+		99B59DE528A353E6009E65D7 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		99B59DFC28A355B6009E65D7 /* ImmerFilm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImmerFilm.entitlements; sourceTree = "<group>"; };
+		99DDE87828A468C30093BDD4 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		992613F428A23E5A001981AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992614A428A2D53E001981AE /* RealmSwift in Frameworks */,
+				992614A228A2D53E001981AE /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D621B692913A370000196DF /* DND App */ = {
+			isa = PBXGroup;
+			children = (
+				4D621B6A2913A3E1000196DF /* DNDViewController.swift */,
+			);
+			path = "DND App";
+			sourceTree = "<group>";
+		};
+		992613EE28A23E5A001981AE = {
+			isa = PBXGroup;
+			children = (
+				992613F928A23E5A001981AE /* ImmerFilm */,
+				992613F828A23E5A001981AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		992613F828A23E5A001981AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				992613F728A23E5A001981AE /* ImmerFilm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992613F928A23E5A001981AE /* ImmerFilm */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DFC28A355B6009E65D7 /* ImmerFilm.entitlements */,
+				99B59DC528A353E6009E65D7 /* Controllers */,
+				9926145A28A23F65001981AE /* Audio */,
+				9926140E28A23F65001981AE /* Filters */,
+				9926144328A23F65001981AE /* Models */,
+				9926146228A23F65001981AE /* Segues */,
+				9926143128A23F65001981AE /* Views */,
+				992613FA28A23E5A001981AE /* AppDelegate.swift */,
+				992613FC28A23E5A001981AE /* SceneDelegate.swift */,
+				9926149E28A24217001981AE /* Constants.swift */,
+				9926140328A23E5A001981AE /* Assets.xcassets */,
+				9926140828A23E5A001981AE /* Info.plist */,
+			);
+			path = ImmerFilm;
+			sourceTree = "<group>";
+		};
+		9926140E28A23F65001981AE /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				9926140F28A23F65001981AE /* AlphaFrameFilter.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		9926143128A23F65001981AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D621B5B29139C9A000196DF /* _GlitchNoFade.mp4 */,
+				4D621B5A29139C9A000196DF /* Flame.mp4 */,
+				4D621B5529139C9A000196DF /* GlitchNoFade.mp4 */,
+				4D621B5629139C9A000196DF /* IF GAMES Vampire Girl  01a NFL Pepsi CROP.mov */,
+				4D621B5229139C9A000196DF /* MorbiusTrailer.mp4 */,
+				4D621B5729139C9A000196DF /* Reality+CLIPBattle Royale01.mp4 */,
+				4D621B5329139C9A000196DF /* Reality1.mov */,
+				4D621B5029139C9A000196DF /* vampire1.mp4 */,
+				4D621B5429139C9A000196DF /* vampire3.mp4 */,
+				4D621B5829139C9A000196DF /* vampire4.mp4 */,
+				4D621B5929139C9A000196DF /* vampire6.mp4 */,
+				4D621B5129139C9A000196DF /* vampire8.mp4 */,
+				4D621B4F29139C9A000196DF /* vampire9.mp4 */,
+				9926143228A23F65001981AE /* Voicemail App */,
+				9926143628A23F65001981AE /* LaunchScreen.storyboard */,
+				991801D328A3693E005D7B0E /* Main.storyboard */,
+				9926143A28A23F65001981AE /* Media App */,
+				9926143C28A23F65001981AE /* Messages App */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9926143228A23F65001981AE /* Voicemail App */ = {
+			isa = PBXGroup;
+			children = (
+				997FDC3328A35145000C7769 /* Main.storyboard */,
+				9926143328A23F65001981AE /* VoicemailListItem.swift */,
+				9926143428A23F65001981AE /* VoicemailItem.xib */,
+				9926143528A23F65001981AE /* VoicemailListItem.xib */,
+			);
+			path = "Voicemail App";
+			sourceTree = "<group>";
+		};
+		9926143A28A23F65001981AE /* Media App */ = {
+			isa = PBXGroup;
+			children = (
+				9926143B28A23F65001981AE /* MediaLibraryCell.swift */,
+			);
+			path = "Media App";
+			sourceTree = "<group>";
+		};
+		9926143C28A23F65001981AE /* Messages App */ = {
+			isa = PBXGroup;
+			children = (
+				9926143D28A23F65001981AE /* MessageItem.xib */,
+				9926143E28A23F65001981AE /* VirtualCharacterReplyingAnimation.xib */,
+				9926143F28A23F65001981AE /* ContactListItem.swift */,
+				9926144028A23F65001981AE /* VirtualCharacterReplyingAnimation.swift */,
+				9926144128A23F65001981AE /* ConversationListItem.swift */,
+				9926144228A23F65001981AE /* MessageItem.swift */,
+			);
+			path = "Messages App";
+			sourceTree = "<group>";
+		};
+		9926144328A23F65001981AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9926144428A23F65001981AE /* Voicemail App */,
+				9926144628A23F65001981AE /* JSON Content */,
+				9926144828A23F65001981AE /* SetupRealmDB.swift */,
+				9926144928A23F65001981AE /* Media App */,
+				9926144B28A23F65001981AE /* Realm Objects */,
+				9926145228A23F65001981AE /* JSON to Realm */,
+				9926145528A23F65001981AE /* Notifications */,
+				9926145728A23F65001981AE /* Messages App */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9926144428A23F65001981AE /* Voicemail App */ = {
+			isa = PBXGroup;
+			children = (
+				9926144528A23F65001981AE /* VoicemailManager.swift */,
+			);
+			path = "Voicemail App";
+			sourceTree = "<group>";
+		};
+		9926144628A23F65001981AE /* JSON Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D621B6E291490E2000196DF /* joeM.json */,
+				4D621B6C2913B969000196DF /* old_MorbiusV2.json */,
+				4DD0EE3A28A4784C00667E20 /* MorbiusV2.json */,
+			);
+			path = "JSON Content";
+			sourceTree = "<group>";
+		};
+		9926144928A23F65001981AE /* Media App */ = {
+			isa = PBXGroup;
+			children = (
+				9926144A28A23F65001981AE /* MediaLibraryManager.swift */,
+			);
+			path = "Media App";
+			sourceTree = "<group>";
+		};
+		9926144B28A23F65001981AE /* Realm Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9926144C28A23F65001981AE /* VirtualCharacter.swift */,
+				9926144D28A23F65001981AE /* VirtualCharacterInteraction.swift */,
+				9926144E28A23F65001981AE /* MediaLibraryItem.swift */,
+				9926144F28A23F65001981AE /* VoicemailItem.swift */,
+				9926145028A23F65001981AE /* VirtualCharacterInteractionHistory.swift */,
+				9926145128A23F65001981AE /* ContentUnlockingItem.swift */,
+			);
+			path = "Realm Objects";
+			sourceTree = "<group>";
+		};
+		9926145228A23F65001981AE /* JSON to Realm */ = {
+			isa = PBXGroup;
+			children = (
+				9926145328A23F65001981AE /* JSONDataFormat.swift */,
+				9926145428A23F65001981AE /* ImportJSONToRealm.swift */,
+			);
+			path = "JSON to Realm";
+			sourceTree = "<group>";
+		};
+		9926145528A23F65001981AE /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				99DDE87828A468C30093BDD4 /* NotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		9926145728A23F65001981AE /* Messages App */ = {
+			isa = PBXGroup;
+			children = (
+				9926145828A23F65001981AE /* LiveChatMessage.swift */,
+				9926145928A23F65001981AE /* VirtualCharacterManager.swift */,
+			);
+			path = "Messages App";
+			sourceTree = "<group>";
+		};
+		9926145A28A23F65001981AE /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				9926145B28A23F65001981AE /* Unlock.mp3 */,
+				9926145C28A23F65001981AE /* MartineVoicemail.mp3 */,
+				9926145D28A23F65001981AE /* SoundPlayer.swift */,
+				9926145E28A23F65001981AE /* Notification.mp3 */,
+				9926145F28A23F65001981AE /* Morbius1.mp3 */,
+				9926146028A23F65001981AE /* GlitchStatic.mp3 */,
+				9926146128A23F65001981AE /* FurElise.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		9926146228A23F65001981AE /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				9926146328A23F65001981AE /* AlwaysPopupSegue.swift */,
+			);
+			path = Segues;
+			sourceTree = "<group>";
+		};
+		99B59DC528A353E6009E65D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D621B692913A370000196DF /* DND App */,
+				99B59DC628A353E6009E65D7 /* Voicemail App */,
+				99B59DC828A353E6009E65D7 /* Web Browser App */,
+				99B59DCA28A353E6009E65D7 /* Music App */,
+				99B59DCC28A353E6009E65D7 /* Reality Clash App */,
+				99B59DCE28A353E6009E65D7 /* Login Items */,
+				99B59DD328A353E6009E65D7 /* Calendar App */,
+				99B59DD628A353E6009E65D7 /* Wisul App */,
+				99B59DD828A353E6009E65D7 /* Media App */,
+				99B59DDD28A353E6009E65D7 /* Notifications */,
+				99B59DE028A353E6009E65D7 /* Messages App */,
+				99B59DE528A353E6009E65D7 /* HomeScreenViewController.swift */,
+			);
+			name = Controllers;
+			path = ImmerFilm/Controllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		99B59DC628A353E6009E65D7 /* Voicemail App */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DC728A353E6009E65D7 /* VoicemailViewController.swift */,
+			);
+			path = "Voicemail App";
+			sourceTree = "<group>";
+		};
+		99B59DC828A353E6009E65D7 /* Web Browser App */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DC928A353E6009E65D7 /* WebBrowserViewController.swift */,
+			);
+			path = "Web Browser App";
+			sourceTree = "<group>";
+		};
+		99B59DCA28A353E6009E65D7 /* Music App */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DCB28A353E6009E65D7 /* MusicMasterViewController.swift */,
+			);
+			path = "Music App";
+			sourceTree = "<group>";
+		};
+		99B59DCC28A353E6009E65D7 /* Reality Clash App */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DCD28A353E6009E65D7 /* RealityClashViewController.swift */,
+			);
+			path = "Reality Clash App";
+			sourceTree = "<group>";
+		};
+		99B59DCE28A353E6009E65D7 /* Login Items */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DCF28A353E6009E65D7 /* WelcomeViewController.swift */,
+				99B59DD028A353E6009E65D7 /* VideoIntroViewController.swift */,
+				99B59DD128A353E6009E65D7 /* LoginViewController.swift */,
+				99B59DD228A353E6009E65D7 /* RegisterViewController.swift */,
+			);
+			path = "Login Items";
+			sourceTree = "<group>";
+		};
+		99B59DD328A353E6009E65D7 /* Calendar App */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DD428A353E6009E65D7 /* CalendarDetailViewController.swift */,
+				99B59DD528A353E6009E65D7 /* CalendarMasterViewController.swift */,
+			);
+			path = "Calendar App";
+			sourceTree = "<group>";
+		};
+		99B59DD628A353E6009E65D7 /* Wisul App */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DD728A353E6009E65D7 /* WisulViewController.swift */,
+			);
+			path = "Wisul App";
+			sourceTree = "<group>";
+		};
+		99B59DD828A353E6009E65D7 /* Media App */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DD928A353E6009E65D7 /* ImageItemViewController.swift */,
+				99B59DDA28A353E6009E65D7 /* MediaLibraryViewController.swift */,
+				99B59DDB28A353E6009E65D7 /* PinCodeViewController.swift */,
+				99B59DDC28A353E6009E65D7 /* VideoViewController.swift */,
+			);
+			path = "Media App";
+			sourceTree = "<group>";
+		};
+		99B59DDD28A353E6009E65D7 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DDE28A353E6009E65D7 /* NotificationPopoverPresentationControllerDelegate.swift */,
+				99B59DDF28A353E6009E65D7 /* NotificationViewController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		99B59DE028A353E6009E65D7 /* Messages App */ = {
+			isa = PBXGroup;
+			children = (
+				99B59DE128A353E6009E65D7 /* VirtualCharacterConversationListViewController.swift */,
+				99B59DE228A353E6009E65D7 /* LiveChatViewController.swift */,
+				99B59DE328A353E6009E65D7 /* VirtualCharacterContactListViewController.swift */,
+				99B59DE428A353E6009E65D7 /* VirtualCharacterConversationViewController.swift */,
+			);
+			path = "Messages App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		992613F628A23E5A001981AE /* ImmerFilm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9926140B28A23E5A001981AE /* Build configuration list for PBXNativeTarget "ImmerFilm" */;
+			buildPhases = (
+				992613F328A23E5A001981AE /* Sources */,
+				992613F428A23E5A001981AE /* Frameworks */,
+				992613F528A23E5A001981AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImmerFilm;
+			packageProductDependencies = (
+				992614A128A2D53E001981AE /* Realm */,
+				992614A328A2D53E001981AE /* RealmSwift */,
+			);
+			productName = ImmerFilm;
+			productReference = 992613F728A23E5A001981AE /* ImmerFilm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992613EF28A23E5A001981AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					992613F628A23E5A001981AE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 992613F228A23E5A001981AE /* Build configuration list for PBXProject "ImmerFilm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 992613EE28A23E5A001981AE;
+			packageReferences = (
+				992614A028A2D53E001981AE /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 992613F828A23E5A001981AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992613F628A23E5A001981AE /* ImmerFilm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		992613F528A23E5A001981AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9926149628A23F65001981AE /* Unlock.mp3 in Resources */,
+				9926140428A23E5A001981AE /* Assets.xcassets in Resources */,
+				9926147C28A23F65001981AE /* VoicemailItem.xib in Resources */,
+				9926149B28A23F65001981AE /* GlitchStatic.mp3 in Resources */,
+				4D621B6429139C9A000196DF /* Reality+CLIPBattle Royale01.mp4 in Resources */,
+				9926148228A23F65001981AE /* VirtualCharacterReplyingAnimation.xib in Resources */,
+				991801D528A3693E005D7B0E /* Main.storyboard in Resources */,
+				9926149728A23F65001981AE /* MartineVoicemail.mp3 in Resources */,
+				4D621B6229139C9A000196DF /* GlitchNoFade.mp4 in Resources */,
+				4D621B5E29139C9A000196DF /* vampire8.mp4 in Resources */,
+				4D621B6729139C9A000196DF /* Flame.mp4 in Resources */,
+				997FDC3528A35145000C7769 /* Main.storyboard in Resources */,
+				4D621B5D29139C9A000196DF /* vampire1.mp4 in Resources */,
+				4D621B6129139C9A000196DF /* vampire3.mp4 in Resources */,
+				4D621B6529139C9A000196DF /* vampire4.mp4 in Resources */,
+				4D621B5C29139C9A000196DF /* vampire9.mp4 in Resources */,
+				4D621B6629139C9A000196DF /* vampire6.mp4 in Resources */,
+				4D621B6029139C9A000196DF /* Reality1.mov in Resources */,
+				4D621B6D2913B969000196DF /* old_MorbiusV2.json in Resources */,
+				9926149C28A23F65001981AE /* FurElise.mp3 in Resources */,
+				9926149928A23F65001981AE /* Notification.mp3 in Resources */,
+				4D621B5F29139C9A000196DF /* MorbiusTrailer.mp4 in Resources */,
+				9926148128A23F65001981AE /* MessageItem.xib in Resources */,
+				4D621B6329139C9A000196DF /* IF GAMES Vampire Girl  01a NFL Pepsi CROP.mov in Resources */,
+				4D621B6F291490E2000196DF /* joeM.json in Resources */,
+				9926147E28A23F65001981AE /* LaunchScreen.storyboard in Resources */,
+				9926147D28A23F65001981AE /* VoicemailListItem.xib in Resources */,
+				9926149A28A23F65001981AE /* Morbius1.mp3 in Resources */,
+				4DD0EE3B28A4784C00667E20 /* MorbiusV2.json in Resources */,
+				4D621B6829139C9A000196DF /* _GlitchNoFade.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		992613F328A23E5A001981AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9926148A28A23F65001981AE /* MediaLibraryManager.swift in Sources */,
+				99B59DF228A353E6009E65D7 /* MediaLibraryViewController.swift in Sources */,
+				9926148628A23F65001981AE /* MessageItem.swift in Sources */,
+				99B59DF528A353E6009E65D7 /* NotificationPopoverPresentationControllerDelegate.swift in Sources */,
+				9926149428A23F65001981AE /* LiveChatMessage.swift in Sources */,
+				99B59DF628A353E6009E65D7 /* NotificationViewController.swift in Sources */,
+				99DDE87928A468C30093BDD4 /* NotificationManager.swift in Sources */,
+				9926148E28A23F65001981AE /* VoicemailItem.swift in Sources */,
+				9926146428A23F65001981AE /* AlphaFrameFilter.swift in Sources */,
+				99B59DFA28A353E6009E65D7 /* VirtualCharacterConversationViewController.swift in Sources */,
+				9926149228A23F65001981AE /* ImportJSONToRealm.swift in Sources */,
+				9926148728A23F65001981AE /* VoicemailManager.swift in Sources */,
+				9926148F28A23F65001981AE /* VirtualCharacterInteractionHistory.swift in Sources */,
+				9926149028A23F65001981AE /* ContentUnlockingItem.swift in Sources */,
+				99B59DEA28A353E6009E65D7 /* WelcomeViewController.swift in Sources */,
+				99B59DEE28A353E6009E65D7 /* CalendarDetailViewController.swift in Sources */,
+				99B59DE628A353E6009E65D7 /* VoicemailViewController.swift in Sources */,
+				99B59DE728A353E6009E65D7 /* WebBrowserViewController.swift in Sources */,
+				99B59DFB28A353E6009E65D7 /* HomeScreenViewController.swift in Sources */,
+				9926148B28A23F65001981AE /* VirtualCharacter.swift in Sources */,
+				99B59DF428A353E6009E65D7 /* VideoViewController.swift in Sources */,
+				99B59DED28A353E6009E65D7 /* RegisterViewController.swift in Sources */,
+				9926149D28A23F65001981AE /* AlwaysPopupSegue.swift in Sources */,
+				9926148528A23F65001981AE /* ConversationListItem.swift in Sources */,
+				9926149F28A24217001981AE /* Constants.swift in Sources */,
+				9926148928A23F65001981AE /* SetupRealmDB.swift in Sources */,
+				99B59DF828A353E6009E65D7 /* LiveChatViewController.swift in Sources */,
+				99B59DF128A353E6009E65D7 /* ImageItemViewController.swift in Sources */,
+				9926148328A23F65001981AE /* ContactListItem.swift in Sources */,
+				9926147B28A23F65001981AE /* VoicemailListItem.swift in Sources */,
+				99B59DF928A353E6009E65D7 /* VirtualCharacterContactListViewController.swift in Sources */,
+				99B59DF328A353E6009E65D7 /* PinCodeViewController.swift in Sources */,
+				99B59DEF28A353E6009E65D7 /* CalendarMasterViewController.swift in Sources */,
+				992613FB28A23E5A001981AE /* AppDelegate.swift in Sources */,
+				99B59DEC28A353E6009E65D7 /* LoginViewController.swift in Sources */,
+				99B59DE928A353E6009E65D7 /* RealityClashViewController.swift in Sources */,
+				99B59DF028A353E6009E65D7 /* WisulViewController.swift in Sources */,
+				9926148D28A23F65001981AE /* MediaLibraryItem.swift in Sources */,
+				9926148428A23F65001981AE /* VirtualCharacterReplyingAnimation.swift in Sources */,
+				4D621B6B2913A3E1000196DF /* DNDViewController.swift in Sources */,
+				9926149528A23F65001981AE /* VirtualCharacterManager.swift in Sources */,
+				992613FD28A23E5A001981AE /* SceneDelegate.swift in Sources */,
+				9926148028A23F65001981AE /* MediaLibraryCell.swift in Sources */,
+				99B59DEB28A353E6009E65D7 /* VideoIntroViewController.swift in Sources */,
+				99B59DE828A353E6009E65D7 /* MusicMasterViewController.swift in Sources */,
+				9926149828A23F65001981AE /* SoundPlayer.swift in Sources */,
+				99B59DF728A353E6009E65D7 /* VirtualCharacterConversationListViewController.swift in Sources */,
+				9926148C28A23F65001981AE /* VirtualCharacterInteraction.swift in Sources */,
+				9926149128A23F65001981AE /* JSONDataFormat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		991801D328A3693E005D7B0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991801D428A3693E005D7B0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9926143628A23F65001981AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9926143728A23F65001981AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		997FDC3328A35145000C7769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				997FDC3428A35145000C7769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9926140928A23E5A001981AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9926140A28A23E5A001981AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9926140C28A23E5A001981AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImmerFilm/ImmerFilm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KL7V9VKD3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImmerFilm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JoeM;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = KL7V9VKD3U.ajnea.JoeM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9926140D28A23E5A001981AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImmerFilm/ImmerFilm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KL7V9VKD3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImmerFilm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JoeM;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = KL7V9VKD3U.ajnea.JoeM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992613F228A23E5A001981AE /* Build configuration list for PBXProject "ImmerFilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9926140928A23E5A001981AE /* Debug */,
+				9926140A28A23E5A001981AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9926140B28A23E5A001981AE /* Build configuration list for PBXNativeTarget "ImmerFilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9926140C28A23E5A001981AE /* Debug */,
+				9926140D28A23E5A001981AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		992614A028A2D53E001981AE /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 10.32.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		992614A128A2D53E001981AE /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 992614A028A2D53E001981AE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		992614A328A2D53E001981AE /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 992614A028A2D53E001981AE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 992613EF28A23E5A001981AE /* Project object */;
+}

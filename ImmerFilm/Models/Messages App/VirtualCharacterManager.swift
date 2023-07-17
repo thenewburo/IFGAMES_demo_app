@@ -1,7 +1,7 @@
 import Foundation
 import RealmSwift
 
-struct VirtualCharacterManager {
+public struct VirtualCharacterManager {
     
     let realm = try! Realm()
     var virtualCharacterInteractionsHistory: List<VirtualCharacterInteractionHistory>?

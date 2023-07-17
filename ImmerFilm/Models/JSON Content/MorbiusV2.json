@@ -1,0 +1,1634 @@
+{
+    "storyName":"Morbius",
+    "characters":[
+        {
+            "characterName":"Martine",
+            "characterProfilePicture":"MartineProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"Joe, did you get out? How do we find you????",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 11:24:26"
+                },
+                {"title":"Pete is dead bro, we're trapped inside.",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 11:28:26"
+                },
+                {"title":"WHERE ARE YOU?!?! WE CAN'T GET OUT!",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 11:32:26"
+                },
+                {"title":"They are coming.",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 11:38:26"
+                }
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "choice3Destination":4,
+                    "title":"Yo, does someone have my phone?",
+                    "choice3":"What is going on?",
+                    "choice1":"Who is this?",
+                    "choice2Destination":2,
+                    "choice1Destination":3,
+                    "choice2":"Whose is this? I just found this phone.",
+                    "contentUnlocking":[
+                        {
+                            "contentType":"ConversationStep",
+                            "contentID":1,
+                            "unlockDelay":20
+                        }
+                    ]
+                },
+                {
+                    "stepID":1,
+                    "choice3Destination":4,
+                    "title":"I really need someone to be there. Please say you found my phone. This day, man.",
+                    "choice3":"What is going on?",
+                    "choice1":"Who is this?",
+                    "choice2Destination":2,
+                    "choice1Destination":3,
+                    "choice2":"Whose is this? I just found this phone.",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":2,
+                    "choice3Destination":4,
+                    "title":"Dude, have you not noticed we're in the middle of a full blown zombie attack? How are you even alive? Where is Tom and Pete? Lou?",
+                    "choice3":"And, you are?",
+                    "choice1":"Who is this?",
+                    "choice2Destination":4,
+                    "choice1Destination":3,
+                    "choice2":"Zombies?!??",
+                    "contentUnlocking":[
+                      ]
+                },
+                {
+                    "stepID":3,
+                    "choice3Destination":7,
+                    "title":"This is Joe. Joe Manganiello. I was with some friends and we were on the island for the weekend when all of a sudden... zombies. Out of nowhere. My dog Bubbles ran away so I ran after him. We're together now, but I'm worried my friends didn't make it out alive.",
+                    "choice3":"Joe? Like the actor?",
+                    "choice1":"I don't know Tom or Pete. I'm starting to freak out over here.",
+                    "choice2Destination":4,
+                    "choice1Destination":4,
+                    "choice2":"Am I in danger???",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":4,
+                    "choice3Destination":5,
+                    "title":"YES. Please don't freak out. I need your help. We can get out of this.",
+                    "choice3":"Where are you?",
+                    "choice1":"How can I help?",
+                    "choice2Destination":5,
+                    "choice1Destination":5,
+                    "choice2":"You need MY help?",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":5,
+                    "choice3Destination":6,
+                    "title":"The zombies are tricky, fast, and deadly. If you get bit, you're dead within hours. You must be in peak physical condition to fight these bastards off. In my phone is a digital version of my book, Evolution. It'll help you reach peak physical condition in order to survive.",
+                    "choice3":"Am I truly in danger?",
+                    "choice1":"How are we going to escape though?",
+                    "choice2Destination":6,
+                    "choice1Destination":6,
+                    "choice2":"I'm scared.",
+                    "contentUnlocking":[
+                        {
+                            "contentType":"Character",
+                            "contentID":1,
+                            "unlockDelay":1
+                        },
+                        {
+                        "contentType":"OtherContentExample",
+                        "contentID":6,
+                        "unlockDelay":2
+                        }
+                    ]
+                },
+                {
+                    "stepID":6,
+                    "choice3Destination":9,
+                    "title":"Trust me. We can make it out of this alive. I have to go move, they're after me. I'll message you once I'm in a safe place.",
+                    "choice3":"Joe? Are you still there?",
+                    "choice1":"Wait!",
+                    "choice2Destination":7,
+                    "choice1Destination":7,
+                    "choice2":"Okay, good luck.",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":7,
+                    "choice3Destination":8,
+                    "title":"How soon can you meet me at the Flatiron Building? No public transport!",
+                    "choice3":"15 Minutes",
+                    "choice1":"5 Minutes",
+                    "choice2Destination":8,
+                    "choice1Destination":8,
+                    "choice2":"30 Minutes",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":8,
+                    "choice3Destination":9,
+                    "title":"Thank you. Wait for my call. I have information for you.",
+                    "choice3":"Are you playing games?",
+                    "choice1":"Wait, help me!",
+                    "choice2Destination":9,
+                    "choice1Destination":9,
+                    "choice2":"What is going on?",
+                    "contentUnlocking":[
+                        {
+                        "contentType":"Voicemail",
+                        "contentID":0,
+                        "unlockDelay":10
+                        }
+                    ]
+                },
+                {
+                    "stepID":9,
+                    "choice3Destination":10,
+                    "title":"Just follow my instructions and you'll be fine",
+                    "choice3":"I don't like this",
+                    "choice1":"I'm going to the police",
+                    "choice2Destination":10,
+                    "choice1Destination":10,
+                    "choice2":"Who is that?",
+                    "contentUnlocking":[
+                        {
+                        "contentType":"OtherContentExample",
+                        "contentID":1,
+                        "unlockDelay":2
+                        }
+                    ]
+                },
+                {
+                    "stepID":10,
+                    "choice3Destination":9,
+                    "title":"Everything will make sense very soon",
+                    "choice3":"When will this be over?",
+                    "choice1":"I wish I'd never found the phone!",
+                    "choice2Destination":9,
+                    "choice1Destination":9,
+                    "choice2":"I'm going to throw this phone in the river",
+                    "contentUnlocking":[
+                    ]
+                }
+            ]
+        },
+        {
+            "characterName":"Harris",
+            "characterProfilePicture":"HarrisProfilePic",
+            "characterHidden":true,
+            "conversationHistory":[
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "choice3Destination":3,
+                    "title":"",
+                    "choice3":"I need to speak to you.",
+                    "choice1":"Harris. I've been told you can help me.",
+                    "choice2Destination":1,
+                    "choice1Destination":1,
+                    "choice2":"This is Morbius. I need your help.",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":1,
+                    "choice3Destination":3,
+                    "title":"Morbius! It's good to hear from you. You don't sound like yourself.  What happened last night?",
+                    "choice3":"What do you know?",
+                    "choice1":"Tell me what happened or Morbius won't get his phone.",
+                    "choice2Destination":3,
+                    "choice1Destination":2,
+                    "choice2":"My memory is patchy. What happened last night?",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":2,
+                    "choice3Destination":7,
+                    "title":"Who is this?",
+                    "choice3":"Tell me what you know or I'll spill your friend's secrets",
+                    "choice1":"It's me of course. Sorry I'm not myself today.",
+                    "choice2Destination":6,
+                    "choice1Destination":3,
+                    "choice2":"I'm an innocent bystander, please help me.",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":3,
+                    "choice3Destination":4,
+                    "title":"I'll call you as soon as I can",
+                    "choice3":"You had better tell me whats going on",
+                    "choice1":"What is this cure?",
+                    "choice2Destination":4,
+                    "choice1Destination":4,
+                    "choice2":"What has Morbius done",
+                    "contentUnlocking":[
+                        {
+                            "contentType":"Voicemail",
+                            "contentID":1,
+                            "unlockDelay":5
+                        }
+                    ]
+                },
+                {
+                    "stepID":4,
+                    "choice3Destination":5,
+                    "title":"I don't have time right now. I'll see you later, at the usual spot.",
+                    "choice3":"I need your help",
+                    "choice1":"Where is that?",
+                    "choice2Destination":5,
+                    "choice1Destination":5,
+                    "choice2":"Don't go! You have to tell me more.",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":5,
+                    "choice3Destination":8,
+                    "title":"Where you took that picture of me. See you there!",
+                    "choice3":"I need your help",
+                    "choice1":"Where is that?",
+                    "choice2Destination":8,
+                    "choice1Destination":5,
+                    "choice2":"Don't go! You have to tell me more",
+                    "contentUnlocking":[
+                        {
+                            "contentType":"Media",
+                            "contentID":0,
+                            "unlockDelay":2
+                        }
+                    ]
+                },
+                {
+                    "stepID":6,
+                    "choice3Destination":7,
+                    "title":"This is identity theft. Get this phone back to its rightful owner!",
+                    "choice3":"If you don't help me your friend will suffer",
+                    "choice1":"Where is he?",
+                    "choice2Destination":8,
+                    "choice1Destination":8,
+                    "choice2":"I'm sorry",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":7,
+                    "choice3Destination":8,
+                    "title":"I don't respond well to threats. You've just made a powerful enemy.",
+                    "choice3":"I need your help",
+                    "choice1":"What does that mean?",
+                    "choice2Destination":8,
+                    "choice1Destination":8,
+                    "choice2":"I'm sorry",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":8,
+                    "choice3Destination":9,
+                    "title":"Perhaps Bobby can help. That's all I'll say",
+                    "choice3":"Thank you",
+                    "choice1":"Appreicate it",
+                    "choice2Destination":9,
+                    "choice1Destination":9,
+                    "choice2":"That's great",
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":9,
+                    "choice3Destination":8,
+                    "title":"You're welcome",
+                    "choice3":"No worries",
+                    "choice1":"Anytime",
+                    "choice2Destination":8,
+                    "choice1Destination":8,
+                    "choice2":"Don't mention it",
+                    "contentUnlocking":[
+                    ]
+                }
+            ]
+        },
+        {
+            "characterName":"Burner Phone",
+            "characterProfilePicture":"MorbiusProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"If you’ve found this phone I need you to get it back to me urgently",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 11:38:26"
+                }
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "title":"If you’ve found this phone I need you to get it back to me urgently",
+                    "choice1":"No way, this is my phone now",
+                    "choice2":"I want a reward. What will you give me for the phone?",
+                    "choice3":"Okay, where are you?",
+                    "choice1Destination":1,
+                    "choice2Destination":1,
+                    "choice3Destination":2,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                     "stepID":1,
+                     "title":"I’m having a day you couldn’t even imagine so I’ll pretend you didn’t say that. Where is my phone?",
+                     "choice1":"Fine, fine. I’ll bring it to you. Where are you?",
+                     "choice2":"What happened to you last night?",
+                     "choice3":"I’m not scared of you. I want a finder’s fee",
+                     "choice1Destination":2,
+                     "choice2Destination":2,
+                     "choice3Destination":3,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":2,
+                     "title":"It’s not safe for you to meet me. We need to arrange a drop-off spot",
+                     "choice1":"Why isn’t it safe?",
+                     "choice2":"How do I do that?",
+                     "choice3":"I want a reward. What will you give me for the phone?",
+                     "choice1Destination":4,
+                     "choice2Destination":5,
+                     "choice3Destination":3,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":3,
+                     "title":"I'm a very dangerous man and not someone you want as an enemy. Do as I say or someone will get hurt",
+                     "choice1":"I don't believe you",
+                     "choice2":"Let me prove you can trust me",
+                     "choice3":"You don't scare me",
+                     "choice1Destination":11,
+                     "choice2Destination":6,
+                     "choice3Destination":11,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":4,
+                     "title":"It's none of your business, you're the last person I would trust",
+                     "choice1":"Tell me, or you'll never get this phone back",
+                     "choice2":"Let me prove you can trust me",
+                     "choice3":"Fine, be like that!",
+                     "choice1Destination":3,
+                     "choice2Destination":6,
+                     "choice3Destination":3,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":5,
+                     "title":"Find someone who will do you (or me) a favour and bring the phone. There must be someone in my phone",
+                     "choice1":"I'll think of something",
+                     "choice2":"Who?",
+                     "choice3":"I don't know",
+                     "choice1Destination":9,
+                     "choice2Destination":9,
+                     "choice3Destination":9,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":6,
+                     "title":"An interesting idea. There might be something",
+                     "choice1":"I'll do anything",
+                     "choice2":"Great, what?",
+                     "choice3":"Pfft, I'm tired of this already.",
+                     "choice1Destination":7,
+                     "choice2Destination":7,
+                     "choice3Destination":10,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":7,
+                     "title":"I'll get back to you later with instructions. Stay ready. ",
+                     "choice1":"Okay",
+                     "choice2":"Why should I do what you say?",
+                     "choice3":"Leave me alone",
+                     "choice1Destination":8,
+                     "choice2Destination":8,
+                     "choice3Destination":11,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":8,
+                     "title":"We need to establish trust. Get them to meet me at the back of the lab and give me the password",
+                     "choice1":"What's the password",
+                     "choice2":"That's impossible",
+                     "choice3":"Can I guess?",
+                     "choice1Destination":9,
+                     "choice2Destination":9,
+                     "choice3Destination":10,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":9,
+                     "title":"If you're so smart you'll find it on my phone. It's hidden in some of my pictures",
+                     "choice1":"This is too much work",
+                     "choice2":"Consider it done",
+                     "choice3":"Can I do something to earn your trust myself?",
+                     "choice1Destination":10,
+                     "choice2Destination":9,
+                     "choice3Destination":6,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":10,
+                     "title":"I'm getting bored of you wasting my time",
+                     "choice1":"Whatever",
+                     "choice2":"I'm sorry, I'll send someone.",
+                     "choice3":"Let me help",
+                     "choice1Destination":0,
+                     "choice2Destination":0,
+                     "choice3Destination":0,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":11,
+                     "title":"This is what will happen!",
+                     "choice1":"I don't care",
+                     "choice2":"Okay I'll help you!",
+                     "choice3":"You're a monster!",
+                     "choice1Destination":11,
+                     "choice2Destination":5,
+                     "choice3Destination":5,
+                     "contentUnlocking":[
+                         {
+                             "contentType":"Media",
+                             "contentID":1,
+                             "unlockDelay":0
+                         }
+                     ]
+                 }
+            ]
+        },
+        {
+            "characterName":"Peter Parker",
+            "characterProfilePicture":"PeterProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"Hey, a friend gave me your number. Just your friendly neighbourhood 🕷️",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 10:25:26"
+                },
+                {"title":"I saw something weird last night, and I know you specialise in that kind of thing doc 😉. It even kind of looked like you which is maybe why I thought of you....",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 10:28:37"
+                },
+                {"title":"Anyway, it can't of been you.",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 10:35:02"
+                }
+            ],
+            "conversationSteps":[
+                {
+                     "stepID":0,
+                     "title":"Anyway, it can't of been you.",
+                     "choice1":"What did you see?",
+                     "choice2":"Do you have a picture?",
+                     "choice3":"This isn't Morbius. I need your help!",
+                     "choice1Destination":1,
+                     "choice2Destination":1,
+                     "choice3Destination":3,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":1,
+                     "title":"I saw...this. What is it!?",
+                     "choice1":"Is that some kind of animal?",
+                     "choice2":"I have a bad feeling about this. I need your help",
+                     "choice3":"If you're trying to scare me it won't work",
+                     "choice1Destination":4,
+                     "choice2Destination":2,
+                     "choice3Destination":2,
+                     "contentUnlocking":[
+                         {
+                             "contentType":"Media",
+                             "contentID":1,
+                             "unlockDelay":0
+                         }
+                     ]
+                 },
+                {
+                     "stepID":2,
+                     "title":"What are you talking about? Are you feeling okay? Has the illness gotten worse?",
+                     "choice1":"What is this illness?",
+                     "choice2":"I'm not Morbius. I'm scared. Please help me",
+                     "choice3":"My memory is fuzzy. Was I experimenting last night?",
+                     "choice1Destination":4,
+                     "choice2Destination":3,
+                     "choice3Destination":4,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":3,
+                     "title":"If this isn't Morbius my best advice is throw that phone away and keep out of this! 💥⚠️🤯",
+                     "choice1":"Whatever, I don't need you",
+                     "choice2":"No I can help! Let me do some research for you",
+                     "choice3":"Let me help",
+                     "choice1Destination":3,
+                     "choice2Destination":3,
+                     "choice3Destination":3,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                     "stepID":4,
+                     "title":"That's what I was wondering. Homework's never been my strength 🤷 Could you do a little research doc?",
+                     "choice1":"Sure!",
+                     "choice2":"Okay...but I don't like the sound of this.",
+                     "choice3":"Do your own work",
+                     "choice1Destination":5,
+                     "choice2Destination":5,
+                     "choice3Destination":3,
+                     "contentUnlocking":[
+                     ]
+                 },
+                {
+                    "stepID":5,
+                    "title":"Great! High five. Get back to me when you know something",
+                    "choice1":"Will do",
+                    "choice2":"Okay",
+                    "choice3":"Be back to you soon",
+                    "choice1Destination":5,
+                    "choice2Destination":5,
+                    "choice3Destination":5,
+                    "contentUnlocking":[
+                    ]
+                }
+            ]
+        },
+        {
+            "characterName":"Bobby",
+            "characterProfilePicture":"BobbyProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"Thanks so much Dr. M. I owe you one!",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 11:15:26"
+                },
+                {"title":"Honestly, it was nothing, just try to stay out of trouble",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 10:18:26"
+                },
+                {"title":"I'm going to be a scientist too some day. If I can help you with anything, just let me know",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 10:21:26"
+                },
+                {"title":"Maybe tomorrow, talk later",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 10:23:26"
+                },
+                {"title":"Hi Dr M. You said to get back to you tomorrow. 😊 Is there anything you need a hand with today?",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 09:21:26"
+                },
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "title":"Hi Dr M. You said to get back to you tomorrow. 😊 Is there anything you need a hand with today?",
+                    "choice1":"I need you to help me get a package to Morbius",
+                    "choice2":"What you know about my work",
+                    "choice3":"Could you help me run an errand?",
+                    "choice1Destination":5,
+                    "choice2Destination":2,
+                    "choice3Destination":1,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":1,
+                    "title":"Sure, what do you need me to do?",
+                    "choice1":"You have to meet someone outside the lab tonight. Then tomorrow you'll deliver a package to them.",
+                    "choice2":"When is your curfew? Could you deliver a package for me?",
+                    "choice3":"",
+                    "choice1Destination":4,
+                    "choice2Destination":4,
+                    "choice3Destination":1,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":2,
+                    "title":"Your working on a cure for your own blood disease 🩸, looking at resistance in bats 🦇",
+                    "choice1":"And what else?",
+                    "choice2":"Fascinating. Can you do me a favour?",
+                    "choice3":"What do you know about Vampires?",
+                    "choice1Destination":3,
+                    "choice2Destination":4,
+                    "choice3Destination":8,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":3,
+                    "title":"Is this a trick question? 🤣 You won't tell me anything about your new experiments.",
+                    "choice1":"Of course. Could you help me with something else?",
+                    "choice2":"I'm sure you must know something",
+                    "choice3":"What do you know about Vampires?",
+                    "choice1Destination":1,
+                    "choice2Destination":4,
+                    "choice3Destination":8,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":4,
+                    "title":"This feels weird. Is this you Dr M?",
+                    "choice1":"I'm a friend of Morbius. He said you'd help me",
+                    "choice2":"Yes it's me",
+                    "choice3":"",
+                    "choice1Destination":6,
+                    "choice2Destination":11,
+                    "choice3Destination":4,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":5,
+                    "title":"Who is this?",
+                    "choice1":"I'm a friend of Morbius. He said you'd help me",
+                    "choice2":"It's me, Morbius",
+                    "choice3":"It's Morbius of course!",
+                    "choice1Destination":6,
+                    "choice2Destination":11,
+                    "choice3Destination":11,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":6,
+                    "title":"I don't believe you. If your his friend you should know. What's his apartment block entry code",
+                    "choice1":"2468",
+                    "choice2":"3366",
+                    "choice3":"Shut up kid, I just need you to help me",
+                    "choice1Destination":10,
+                    "choice2Destination":14,
+                    "choice3Destination":7,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":7,
+                    "title":"No way, you don't scare me",
+                    "choice1":"Morbius is hurting someone, he sent me a video!",
+                    "choice2":"Please, I'm begging you. Speak to Martine, she'll explain",
+                    "choice3":"",
+                    "choice1Destination":12,
+                    "choice2Destination":13,
+                    "choice3Destination":7,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":8,
+                    "title":"🧛? They hate sunlight, garlic and most importantly - aren't real",
+                    "choice1":"Did Morbius ever talk about Vampires",
+                    "choice2":"I think they are.",
+                    "choice3":"",
+                    "choice1Destination":5,
+                    "choice2Destination":9,
+                    "choice3Destination":8,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":9,
+                    "title":"Prove it. If 🧛 exist I want to meet one. ",
+                    "choice1":"Okay, wait outside the lab tonight",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":4,
+                    "choice2Destination":9,
+                    "choice3Destination":9,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":10,
+                    "title":"Okay, I believe you. Who am I meeting.",
+                    "choice1":"Morbius",
+                    "choice2":"I don't know",
+                    "choice3":"A monster",
+                    "choice1Destination":14,
+                    "choice2Destination":14,
+                    "choice3Destination":12,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":11,
+                    "title":"I don't believe you. If it's you, what did we do last week?",
+                    "choice1":"Go for ice cream",
+                    "choice2":"Go bowling",
+                    "choice3":"Visit the cinema",
+                    "choice1Destination":10,
+                    "choice2Destination":14,
+                    "choice3Destination":14,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":12,
+                    "title":"Leave me alone or I'm calling the police!",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":12,
+                    "choice2Destination":12,
+                    "choice3Destination":12,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":13,
+                    "title":"Okay, I'll get back to you...or not",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":13,
+                    "choice2Destination":13,
+                    "choice3Destination":13,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":14,
+                    "title":"Who is that?! That's not Morbius and neither are you!",
+                    "choice1":"Shut up kid, I just need you to help me",
+                    "choice2":"Please, I'm begging you. Speak to Martine, she'll explain",
+                    "choice3":"",
+                    "choice1Destination":7,
+                    "choice2Destination":13,
+                    "choice3Destination":14,
+                    "contentUnlocking":[
+                    ]
+                }
+            ]
+        },
+        {
+            "characterName":"Ashley D",
+            "characterProfilePicture":"AshleyProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"Stop getting in my way",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:45:26"
+                },
+                {"title":"I'm defending the people of this neighbourhood",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:46:26"
+                },
+                {"title":"You're getting on my last nerve. One more time and you'll pay for it",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:50:26"
+                },
+                {"title":"Get your gang off the street or you'll be the one to pay",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:55:26"
+                },
+                {"title":"Hey, I heard you took out one of my boys. I don't appreciate that",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:57:26"
+                },
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "title":"Hey, I heard you took out one of my boys. I don't appreciate that",
+                    "choice1":"And what?",
+                    "choice2":"Who is this?",
+                    "choice3":"What are you talking about?",
+                    "choice1Destination":1,
+                    "choice2Destination":3,
+                    "choice3Destination":1,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":1,
+                    "title":"You don't mess with me or my operation without consequences. Okay? You'll pay for this",
+                    "choice1":"I'd like to see you try",
+                    "choice2":"Who is this?",
+                    "choice3":"Please don't hurt me!",
+                    "choice1Destination":5,
+                    "choice2Destination":3,
+                    "choice3Destination":2,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":2,
+                    "title":"Oh, not such a tough guy today?",
+                    "choice1":"I need your help",
+                    "choice2":"What is your operation?",
+                    "choice3":"You sound like trouble, just leave me alone",
+                    "choice1Destination":8,
+                    "choice2Destination":3,
+                    "choice3Destination":4,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":3,
+                    "title":"You know who I am. You've been moving in on my turf for months now. This neighbourhood is mine.",
+                    "choice1":"I'm sorry. Please don't hurt me",
+                    "choice2":"I don't have time for this",
+                    "choice3":"I'm not scared of you",
+                    "choice1Destination":2,
+                    "choice2Destination":4,
+                    "choice3Destination":4,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":4,
+                    "title":"You need to start showing me some respect",
+                    "choice1":"Why should I be scared of you?",
+                    "choice2":"Just leave me alone",
+                    "choice3":"What did Morbius do to you?",
+                    "choice1Destination":55,
+                    "choice2Destination":55,
+                    "choice3Destination":57,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":5,
+                    "title":"I can hurt you, I know how to get into your house and one of these days you're going to wake up dead",
+                    "choice1":"Oh really, what's my gate code?",
+                    "choice2":"Shut up. I can tell when you're lying",
+                    "choice3":"Morbius is no friend of mine",
+                    "choice1Destination":6,
+                    "choice2Destination":6,
+                    "choice3Destination":10,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":6,
+                    "title":"It's 5013. You thought I was bluffing, but I can come get you any time I want",
+                    "choice1":"Thank you, that was helpful",
+                    "choice2":"Stay away from Morbius, he's dangerous",
+                    "choice3":"Please don't hurt anyone",
+                    "choice1Destination":7,
+                    "choice2Destination":11,
+                    "choice3Destination":11,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":7,
+                    "title":"What are you talking about? You're a weird guy. Just stay out my way",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":7,
+                    "choice2Destination":7,
+                    "choice3Destination":7,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":8,
+                    "title":"Why on earth would I help you?",
+                    "choice1":"I want to expose Morbius",
+                    "choice2":"I'm desperate and I don't know what to do",
+                    "choice3":"I can trade information with you",
+                    "choice1Destination":9,
+                    "choice2Destination":7,
+                    "choice3Destination":9,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":9,
+                    "title":"Okay, this is interesting. Stay on the line, I'll call you later...",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":9,
+                    "choice2Destination":9,
+                    "choice3Destination":9,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":10,
+                    "title":"He was taking dealers off the streets and I don't take kindly to that. Who is this?",
+                    "choice1":"It looks like we have a common enemy...",
+                    "choice2":"Someone who thinks we could help each other",
+                    "choice3":"Morbius was right, you deserve what you get. ",
+                    "choice1Destination":9,
+                    "choice2Destination":8,
+                    "choice3Destination":5,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":11,
+                    "title":"I'll do what I want. Who is this?",
+                    "choice1":"I'm not Morbius. I want to work with you",
+                    "choice2":"I need you help",
+                    "choice3":"",
+                    "choice1Destination":9,
+                    "choice2Destination":8,
+                    "choice3Destination":11,
+                    "contentUnlocking":[
+                    ]
+                }
+            ]
+        },
+        {
+            "characterName":"Loxias",
+            "characterProfilePicture":"LoxiasProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"See you tonight. Looking forward to it",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:45:26"
+                },
+                {"title":"Thank you so much for participating in the experiment, it means the world",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:46:26"
+                },
+                {"title":"Just round the corner, see you in a minute",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:50:26"
+                },
+                {"title":"Hurry up!",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:55:26"
+                }
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "title":"What happened last night?",
+                    "choice1":"What do you remember?",
+                    "choice2":"You tell me",
+                    "choice3":"Who are you?",
+                    "choice1Destination":6,
+                    "choice2Destination":1,
+                    "choice3Destination":1,
+                    "contentUnlocking":[
+                        {
+                            "contentType":"ConversationStep",
+                            "contentID":1,
+                            "unlockDelay":20
+                        }
+                    ]
+                },
+                {
+                    "stepID":1,
+                    "title":"Seriously, I can barely move. What did you do to me? Was that experiment safe?",
+                    "choice1":"What was the experiment?",
+                    "choice2":"What happened last night?",
+                    "choice3":"How are you feeling?",
+                    "choice1Destination":5,
+                    "choice2Destination":2,
+                    "choice3Destination":4,
+                    "contentUnlocking":[
+                        {
+                            "contentType":"ConversationStep",
+                            "contentID":2,
+                            "unlockDelay":20
+                        }
+                    ]
+                },
+                {
+                    "stepID":2,
+                    "title":"Answer my question. Are these cravings normal? I don't know what to do...",
+                    "choice1":"I don't have an answer for you",
+                    "choice2":"What did the experiment do to you?",
+                    "choice3":"What cravings?",
+                    "choice1Destination":3,
+                    "choice2Destination":5,
+                    "choice3Destination":3,
+                    "contentUnlocking":[
+                        {
+                            "contentType":"ConversationStep",
+                            "contentID":3,
+                            "unlockDelay":20
+                        }
+                    ]
+                },
+                {
+                    "stepID":3,
+                    "title":"I'm so hungry, I can't satisfy it. What should I do",
+                    "choice1":"I don't know!?",
+                    "choice2":"Stay inside",
+                    "choice3":"This isn't my problem",
+                    "choice1Destination":4,
+                    "choice2Destination":4,
+                    "choice3Destination":6,
+                    "contentUnlocking":[
+                        {
+                            "contentType":"ConversationStep",
+                            "contentID":4,
+                            "unlockDelay":20
+                        }
+                    ]
+                },
+                {
+                    "stepID":4,
+                    "title":"I think I'm losing my mind. Help me, I have to go out. I need to eat. I don't know what I'll do.",
+                    "choice1":"Text me before you do anything rash",
+                    "choice2":"I don't think that's a good idea",
+                    "choice3":"Meet me later",
+                    "choice1Destination":6,
+                    "choice2Destination":6,
+                    "choice3Destination":7,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":5,
+                    "title":"Just the experiment. I did exactly what you told me and then...it all seemed to go wrong and I woke up looking...like this...",
+                    "choice1":"Looking how?",
+                    "choice2":"Send me a photo",
+                    "choice3":"Leave me alone!",
+                    "choice1Destination":8,
+                    "choice2Destination":8,
+                    "choice3Destination":6,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":6,
+                    "title":"Why are you being like this? I'll call you later. You can't do this to me and abandon me.",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":6,
+                    "choice2Destination":6,
+                    "choice3Destination":6,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":7,
+                    "title":"Yes, when can I meet you",
+                    "choice1":"Meet me by the laboratory tonight.",
+                    "choice2":"Where are you? Ill send someone.",
+                    "choice3":"I don't have time for this. Leave me alone.",
+                    "choice1Destination":9,
+                    "choice2Destination":9,
+                    "choice3Destination":6,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":8,
+                    "title":"Like this!",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":8,
+                    "choice2Destination":8,
+                    "choice3Destination":8,
+                    "contentUnlocking":[
+                        {
+                             "contentType":"Media",
+                             "contentID":0,
+                             "unlockDelay":1
+                         }
+                    ]
+                },
+                {
+                    "stepID":9,
+                    "title":"Wait for my message",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":8,
+                    "choice2Destination":8,
+                    "choice3Destination":8,
+                    "contentUnlocking":[
+                    ]
+                }
+            ]
+        },
+        {
+            "characterName":"Jacob",
+            "characterProfilePicture":"JacobProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"Don't forget Anthony's birthday next week 🎂",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:45:26"
+                },
+                {"title":"Don't worry, I won't. You're sorting it out right? I'm not really a birthday guy",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:46:26"
+                },
+                {"title":"Yep, it's in hand. You want me in early Monday right? 8am? 😱",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:50:26"
+                },
+                {"title":"That would be great thanks",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:55:26"
+                },
+                {"title":"Did you get the memo about Ant's birthday? 🎇 🎉",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:55:26"
+                }
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "title":"Did you get the memo about Ant's birthday? 🎇 🎉",
+                    "choice1":"Yep",
+                    "choice2":"Please leave me alone",
+                    "choice3":"",
+                    "choice1Destination":1,
+                    "choice2Destination":5,
+                    "choice3Destination":0,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":1,
+                    "title":"We've got the cake and stuff, 🎂 🤣 I just need you to sign the card. 🎁",
+                    "choice1":"Fine",
+                    "choice2":"I don't have time for this!",
+                    "choice3":"",
+                    "choice1Destination":2,
+                    "choice2Destination":5,
+                    "choice3Destination":4,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":2,
+                    "title":"Can we set up a time, it's in my office just pop in",
+                    "choice1":"Great, will do later?",
+                    "choice2":"I don't care, stop messaging me!",
+                    "choice3":"",
+                    "choice1Destination":3,
+                    "choice2Destination":6,
+                    "choice3Destination":3,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":3,
+                    "title":"Do you prefer chocolate or carrot cake?",
+                    "choice1":"Chocolate",
+                    "choice2":"Leave me alone you idiot!",
+                    "choice3":"",
+                    "choice1Destination":8,
+                    "choice2Destination":7,
+                    "choice3Destination":6,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":4,
+                    "title":"Fine, you're busy. I'll get back to you later.",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":4,
+                    "choice2Destination":4,
+                    "choice3Destination":4,
+                    "contentUnlocking":[
+                    ]
+                },
+              {
+                  "stepID":5,
+                  "title":"There's no need to be rude, what's wrong with you today!?",
+                  "choice1":"",
+                  "choice2":"",
+                  "choice3":"",
+                  "choice1Destination":4,
+                  "choice2Destination":4,
+                  "choice3Destination":4,
+                  "contentUnlocking":[
+                  ]
+              },
+              {
+                  "stepID":6,
+                  "title":"Calm down! Chat later.",
+                  "choice1":"",
+                  "choice2":"",
+                  "choice3":"",
+                  "choice1Destination":4,
+                  "choice2Destination":4,
+                  "choice3Destination":4,
+                  "contentUnlocking":[
+                  ]
+              },
+              {
+                  "stepID":7,
+                  "title":"You know what, fine. Don't sign the card. I don't care!",
+                  "choice1":"",
+                  "choice2":"",
+                  "choice3":"",
+                  "choice1Destination":4,
+                  "choice2Destination":4,
+                  "choice3Destination":4,
+                  "contentUnlocking":[
+                  ]
+              },
+              {
+                  "stepID":8,
+                  "title":"Great, see you later!",
+                  "choice1":"",
+                  "choice2":"",
+                  "choice3":"",
+                  "choice1Destination":4,
+                  "choice2Destination":4,
+                  "choice3Destination":4,
+                  "contentUnlocking":[
+                  ]
+              },
+              
+              
+            ]
+        },
+        {
+            "characterName":"Simon Stroud",
+            "characterProfilePicture":"SimonProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"You're going to have to open up those files eventually",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:45:26"
+                },
+                {"title":"Take it up with my lawyer",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:46:26"
+                },
+                {"title":"With pleasure. You and your lawyer will be hearing from us soon",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:50:26"
+                },
+                {"title":"👋",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:55:26"
+                },
+                {"title":"I've got a few more questions. Where are you?",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:58:26"
+                }
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "title":"I've got a few more questions. Where are you?",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":0,
+                    "choice2Destination":0,
+                    "choice3Destination":0,
+                    "contentUnlocking":[
+                    ]
+                },
+                {
+                    "stepID":1,
+                    "title":"This!",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":1,
+                    "choice2Destination":1,
+                    "choice3Destination":1,
+                    "contentUnlocking":[
+                        {
+                             "contentType":"Media",
+                             "contentID":3,
+                             "unlockDelay":0
+                         }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "characterName":"Lena",
+            "characterProfilePicture":"LenaProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"Meet me tomorrow",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:45:26"
+                },
+                {"title":"You know I can't",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:46:26"
+                },
+                {"title":"I can't stop thinking about you",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:50:26"
+                },
+                {"title":"Me too, but it's not right",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:55:26"
+                },
+                {"title":"I need to see you. After everything, you owe me that",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:58:26"
+                }
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "title":"I need to see you. After everything, you owe me that",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":0,
+                    "choice2Destination":0,
+                    "choice3Destination":0,
+                    "contentUnlocking":[
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "characterName":"Eric Brookes",
+            "characterProfilePicture":"EricProfilePic",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"I know what you're doing in that lab of yours. Shut it down, it's not safe.",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:45:26"
+                },
+                {"title":"Leave the science to the scientists",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:46:26"
+                },
+                {"title":"I've spent my life dealing with these creatures. I'm telling you this road you're going down only leads one way.",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:50:26"
+                },
+                {"title":"I disagree. Either way, this time tomorrow we'll have our answer.",
+                    "sender":"VirtualUser",
+                    "timestamp":"2020-01-01 08:55:26"
+                },
+                {"title":"Morbius I'm begging you. Stop the experiment before it's too late",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:58:26"
+                }
+            ],
+            "conversationSteps":[
+                {
+                    "stepID":0,
+                    "title":"Morbius I'm begging you. Stop the experiment before it's too late",
+                    "choice1":"",
+                    "choice2":"",
+                    "choice3":"",
+                    "choice1Destination":0,
+                    "choice2Destination":0,
+                    "choice3Destination":0,
+                    "contentUnlocking":[
+                    ]
+                }
+            ]
+        },
+        
+        
+        {
+            "characterName":"Team-IF",
+            "characterProfilePicture":"AppIcon",
+            "characterHidden":false,
+            "conversationHistory":[
+                {"title":"A place to discuss the film",
+                    "sender":"VirtualCharacter",
+                    "timestamp":"2020-01-01 08:45:26"
+                },
+            ],
+            "conversationSteps":[
+            ]
+        }
+    ],
+    "importedMediaLibraryItems":[
+        {
+            "mediaLibraryItemID":0,
+            "mediaName":"Morbius",
+            "mediaType":"Image",
+            "mediaHidden": true
+        },
+        {
+            "mediaLibraryItemID":1,
+            "mediaName":"MorbiusTrailer",
+            "mediaType":"Video",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":2,
+            "mediaName":"Adria",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":3,
+            "mediaName":"BloodResearch",
+            "mediaType":"Video",
+            "mediaHidden": true
+        },
+        {
+            "mediaLibraryItemID":31,
+            "mediaName":"vampire1",
+            "mediaType":"Video",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":32,
+            "mediaName":"vampire3",
+            "mediaType":"Video",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":33,
+            "mediaName":"vampire4",
+            "mediaType":"Video",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":34,
+            "mediaName":"vampire6",
+            "mediaType":"Video",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":35,
+            "mediaName":"vampire8",
+            "mediaType":"Video",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":36,
+            "mediaName":"vampire9",
+            "mediaType":"Video",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":4,
+            "mediaName":"2",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":5,
+            "mediaName":"3",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":6,
+            "mediaName":"4",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":7,
+            "mediaName":"5",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":8,
+            "mediaName":"6",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":9,
+            "mediaName":"7",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":10,
+            "mediaName":"8",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":11,
+            "mediaName":"9",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":12,
+            "mediaName":"10",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":13,
+            "mediaName":"11",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":14,
+            "mediaName":"12",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":15,
+            "mediaName":"13",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":16,
+            "mediaName":"14",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":17,
+            "mediaName":"15",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":18,
+            "mediaName":"16",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":19,
+            "mediaName":"17",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":20,
+            "mediaName":"18",
+            "mediaType":"Image",
+            "mediaHidden": false
+        },
+        {
+            "mediaLibraryItemID":21,
+            "mediaName":"1",
+            "mediaType":"Image",
+            "mediaHidden": false
+        }
+    ],
+    "voicemails":[
+        {
+            "voicemailItemID":0,
+            "callerName":"Martine",
+            "callerProfilePicture":"MartineProfilePic",
+            "audioName":"MartineVoicemail",
+            "voicemailHidden":true
+        },
+        {
+            "voicemailItemID":1,
+            "callerName":"Harris",
+            "callerProfilePicture":"HarrisProfilePic",
+            "audioName":"Morbius1",
+            "voicemailHidden":false
+        },
+        {
+            "voicemailItemID":2,
+            "callerName":"Lena",
+            "callerProfilePicture":"LenaProfilePic",
+            "audioName":"Morbius1",
+            "voicemailHidden":false
+        },
+        {
+            "voicemailItemID":3,
+            "callerName":"Peter Parker",
+            "callerProfilePicture":"PeterProfilePic",
+            "audioName":"Morbius1",
+            "voicemailHidden":false
+        }
+    ]
+}
